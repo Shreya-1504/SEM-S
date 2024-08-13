@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url('neonback.gif');
+    background-size: cover;
+    min-width: 550px;
+    min-height: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+  .logoM{
+    
+    display: block;
+    margin-top: 15px;
+    margin-left: 620;
+    margin-right: 150;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    ;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  
+  .choose h2{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    
+    padding-bottom: 20px;
+  }
+.first{
+    padding-left: 280px;
+}

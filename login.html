@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<script>
+  function myFunction() {
+    // Get the value of the input field with id="numb"
+    var x = document.getElementById("uname")
+    var y = document.getElementById("pwd");
+    // If x is Not a Number or less than one or greater than 10
+    let text;
+    if (x.value=="glwec" && y.value=="glwec") 
+    {
+      text="ok";
+    } 
+    else
+    {
+      // alert("input not valid")
+      text="input not valid";
+    }
+    document.getElementById("demo").innerHTML=text
+  }
+  </script>
+   
+</head>
+<body backgrond="C:\Users\91703\Desktop\graphics\th (1).jpg" style="background-image: 500%">
+  
+
+  <h2 style="color:brown;font-size: 400%;font-style:normal;padding-left: 30%;">LOGIN FORM</h2>
+
+  
+  <p id="demo" style="padding-left: 30% ;font-size: 250%;">Enter</p><br><br>
+
+  <form style="padding-left: 30%;padding-bottom: 7%;">
+    <input  style="font-size: 255%;" typeww="text" id ="uname" placeholder="Username" name="uname"  required>
+    <br><br><br><br>
+    <input style="font-size: 255%" type="password" id= "pwd" placeholder="password" name="pwd" required>
+    <br><br><br><br>
+    <button style="font-size: 155%" type="button" onclick="myFunction()">Submit</button>
+  </form>
+ 
+
+</body>
+  
+</html>
